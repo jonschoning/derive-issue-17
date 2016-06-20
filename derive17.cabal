@@ -29,7 +29,7 @@ test-suite tests
                        derive17,
                        text,
                        time,
-                       derive,
+                       derive == 2.5.25,
                        QuickCheck
   ghc-options:         -Wall 
                        -fno-warn-orphans
